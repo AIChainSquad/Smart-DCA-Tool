@@ -1,0 +1,36 @@
+{
+  "portfolio": {
+    "stock_allocation": {
+      "QQQ": 0.35,
+      "VOO": 0.20,
+      "GLDM": 0.05
+    },
+    "crypto_allocation": {
+      "BTC": 0.45,
+      "BNB": 0.25,
+      "SOL": 0.20,
+      "ETH": 0.10
+    },
+    "stock_weight": 0.6,
+    "crypto_weight": 0.4
+  },
+  "limits": {
+    "weekly_usd_limit": 2000,
+    "weekly_tao_limit": 6
+  },
+  "crash_detection": {
+    "stock_lookback_days": 20,
+    "crypto_lookback_days": 30,
+    "level1_threshold": 0.10,
+    "level2_threshold": 0.15,
+    "level3_threshold": 0.25,
+    "level1_multiplier": 1.5,
+    "level2_multiplier": 2.0,
+    "level3_multiplier": 3.0
+  },
+  "api_config": {
+    "alpha_vantage_key": "",
+    "update_interval_hours": 1
+  },
+  "investment_day": "tuesday"
+}
